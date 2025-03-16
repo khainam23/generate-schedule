@@ -1,5 +1,5 @@
 from typing import List
-from task import Task
+from model.task import Task
 
 class CheckConstraint:
     def __init__(self):

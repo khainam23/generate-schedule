@@ -11,7 +11,7 @@ class Export:
     def export(self, fileName = '', type = "excel"):
         if type == "excel":
             return self.excel()
-        pass
+        
         
     def excel(self, fileName = "schedule_excel.xlsx"):
         sheetName = "Schedule"
@@ -20,5 +20,7 @@ class Export:
         
         dataExcel.to_excel(
             fileName,
-            sheet_name=sheetName
+            sheet_name=sheetName,
+            index=False, 
+            header=False
         )
