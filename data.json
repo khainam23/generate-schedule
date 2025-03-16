@@ -1,0 +1,29 @@
+{
+    "name": "Example",
+    "days": [],
+    "time": "hourStart-hourEnd",
+    "data_fixed": {
+        "name1": {
+            "day": "day",
+            "max-time": "max time",
+            "hour": "hour"
+        },
+        "name2": {
+            "day": "day",
+            "max-time": "max time",
+            "hour": "hour"
+        }
+    },
+    "data": {
+        "name3": {
+            "day": "day",
+            "max-time": "max time",
+            "hour": "hour"
+        },
+        "name4": {
+            "day": "day",
+            "max-time": "max time",
+            "hour": "hour"
+        }
+    }
+}
